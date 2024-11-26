@@ -20,7 +20,7 @@ extension WidgetExtension on Widget{
     double vp=5,
     double boarderRadius=defaultRadius,
     BoxBorder? border,
-    Color color=white
+    Color color=black
   })  {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: hm,vertical: vm),

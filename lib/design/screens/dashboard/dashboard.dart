@@ -58,6 +58,10 @@ class Dashboard extends StatelessWidget{
           )
         ],
         navBarStyle: NavBarStyle.style5,
+        decoration: const NavBarDecoration(
+          border:Border(top: BorderSide(color:Colors.black26)),
+
+        ),
       
       ),
     );

@@ -1,4 +1,5 @@
 import 'package:ecommerce_flutter/utills/app_assets.dart';
+import 'package:ecommerce_flutter/utills/app_texttheme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -31,7 +32,7 @@ class ViewAllRaw extends StatelessWidget{
        padding: const EdgeInsetsDirectional.only(start: 16,end: 16),
        child: Row(
          children: [
-           CText(title),
+           CText(title,style:TextThemeX.text21,),
            if(onPress != null)...[
              Spacer(),
              ...buildTrailing(type)
@@ -47,7 +48,7 @@ List<Widget>buildTrailing(String type){
 
     case 'viewAll':
       return [
-        CText("View All") ,
+        CText("View All",) ,
         SizedBox(width:10,),
         SvgPicture.asset(AppIcon.rightArrow),
       ];
@@ -57,7 +58,7 @@ List<Widget>buildTrailing(String type){
         SizedBox(width:8,),
          SlideCountdownSeparated(
           separator: "",
-          style: TextStyle(color: Colors.black),
+          style:TextThemeX.text17,
           duration: Duration(hours:4),
           decoration:BoxDecoration(
             color: lightPink,

@@ -1,5 +1,6 @@
 import 'package:ecommerce_flutter/design/components/c_extension.dart';
 import 'package:ecommerce_flutter/design/components/c_set_image.dart';
+import 'package:ecommerce_flutter/design/components/c_view_allraw.dart';
 import 'package:ecommerce_flutter/design/screens/tabs/home/home_controller.dart';
 import 'package:ecommerce_flutter/utills/app_assets.dart';
 import 'package:ecommerce_flutter/utills/app_colors.dart';
@@ -23,7 +24,6 @@ class HomeView extends StatelessWidget{
       );
     });
   }
-
 }
 class CAppBar extends StatelessWidget implements PreferredSizeWidget{
   const CAppBar({super.key});
