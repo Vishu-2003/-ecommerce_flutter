@@ -28,9 +28,7 @@ class ViewAllRaw extends StatelessWidget{
   Widget build(BuildContext context) {
    return CCoreButton(
      onPressed: onPress,
-     child: Padding(
-       padding: const EdgeInsetsDirectional.only(start: 16,end: 16),
-       child: Row(
+     child:Row(
          children: [
            CText(title,style:TextThemeX.text21,),
            if(onPress != null)...[
@@ -39,7 +37,6 @@ class ViewAllRaw extends StatelessWidget{
            ]
          ],
        ),
-     ),
    );
   }
 }

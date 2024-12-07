@@ -19,4 +19,5 @@ class AppBottomBar{
 class AppImages{
   AppImages._();
   static const user = "$imagePath/person.png";
+  static const girl = "$imagePath/girl.png";
 }

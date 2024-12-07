@@ -48,4 +48,10 @@ class TextThemeX{
     color: black,
     fontFamily: getRalewayFontFamily,
   );
+  static final text28 = TextStyle(
+      fontSize: 28,
+      fontWeight: FontWeight.w700,
+      color: black,
+      fontFamily: getRalewayFontFamily
+  );
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
 import 'package:shimmer/shimmer.dart';
 
 import '../../utills/app_colors.dart';
@@ -16,11 +17,11 @@ extension WidgetExtension on Widget{
   Widget defaultContainer({
     double hm=20,
     double vm=0,
-    double hp=5,
-    double vp=5,
+    double hp=8,
+    double vp=8,
     double boarderRadius=defaultRadius,
     BoxBorder? border,
-    Color color=black
+    Color color=greyWhite
   })  {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: hm,vertical: vm),
