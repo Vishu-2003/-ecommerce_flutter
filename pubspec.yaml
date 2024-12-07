@@ -41,6 +41,7 @@ dependencies:
   slide_countdown: ^2.0.1
   shimmer: ^3.0.0
   modal_bottom_sheet: ^3.0.0
+  flutter_staggered_grid_view: ^0.7.0
 
 dev_dependencies:
   flutter_test:
@@ -84,13 +85,13 @@ flutter:
   fonts:
      - family: Nunito
        fonts:
-         - asset: fonts/NunitoSans_10pt-Regular.ttf
+         - asset: assets/fonts/NunitoSans_10pt-Regular.ttf
            weight: 400
      - family: Raleway
        fonts:
-         - asset: fonts/Raleway-Medium.ttf
+         - asset: assets/fonts/Raleway-Medium.ttf
            weight: 500
-         - asset: fonts/Raleway-Bold.ttf
+         - asset: assets/fonts/Raleway-Bold.ttf
            weight: 700
 
   # For details regarding fonts from package dependencies,

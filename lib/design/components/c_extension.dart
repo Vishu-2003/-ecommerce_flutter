@@ -35,8 +35,8 @@ extension WidgetExtension on Widget{
 
   Widget showShimmer(){
   return  Shimmer.fromColors(
-      baseColor:Colors.white,
-      highlightColor: Colors.grey.shade200,
+      baseColor:Colors.grey.shade200,
+      highlightColor: white,
       child:this
   );}
 
